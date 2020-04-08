@@ -6,3 +6,13 @@ module Shopping
     # Your code goes here...
   end
 end
+
+
+
+
+class cart
+def mymethod
+
+
+end
+end
