@@ -3,10 +3,10 @@ require_relative 'lib/shopping/cart/version'
 Gem::Specification.new do |spec|
   spec.name          = "shopping-cart"
   spec.version       = Shopping::Cart::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Amardeep shinde"]
+  spec.email         = ["amardeep@xyz.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
+  spec.summary       = %q{ easily you can use }
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
