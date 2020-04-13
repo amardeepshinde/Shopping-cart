@@ -17,5 +17,11 @@ class InputBuffer
     return @buffer.join( " " )
   end
 
+  def remove(item)
+    val = @buffer.index(item)
+    @buffer.delete(val)
+    return val
+  end
+
  
 end

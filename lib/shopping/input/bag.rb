@@ -1,4 +1,3 @@
-require_relative 'exceptions'
 
 class Bag
   include Enumerable

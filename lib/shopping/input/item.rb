@@ -14,6 +14,13 @@ class Item
     @bag.add(amount, item)
   end
 
+  def remove_all(bag)
+    @bag.remove_all(bag)
+  end
+
+  def has?(amount, item)
+    @bag.has?(amount, item)
+  end
 
   def print
     @bag.print

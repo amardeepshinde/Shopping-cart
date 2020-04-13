@@ -9,6 +9,9 @@ class Invoker
     @queue << x
   end
 
-
+  def undo()
+    x = @queue.pop
+    x.unexecute() if x
+  end
 end
 
