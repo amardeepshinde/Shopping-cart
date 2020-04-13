@@ -66,7 +66,7 @@ module Inputhandle
       
     
       puts Item.instance.print
-    end until command == "exit"
+    end until choice == "exit"
     
     
   end

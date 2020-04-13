@@ -41,6 +41,12 @@ class Bag
     end
     
     end
+    totalcartvalue = 0
+    price.each do |pr|
+
+    totalcartvalue += pr.to_i
+    puts totalcartvalue
+    end
     product
   end
 end
