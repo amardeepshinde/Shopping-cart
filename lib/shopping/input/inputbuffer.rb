@@ -17,6 +17,5 @@ class InputBuffer
     return @buffer.join( " " )
   end
 
-
-  end
+ 
 end

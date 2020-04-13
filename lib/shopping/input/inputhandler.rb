@@ -1,4 +1,5 @@
 require_relative 'addtocart'
+require_relative 'showcart'
 require_relative 'invokers'
 require_relative 'bufferinvoker'
 require_relative 'item'
@@ -6,7 +7,6 @@ require_relative 'bag'
 
 
 module Inputhandle
-
 
   
   def Inputhandle.parse
@@ -21,15 +21,19 @@ module Inputhandle
       puts "Please select below opetion with product add , order , show  "
       
       input = gets.chomp.split(' ')
-      choice = input[0]
+      command = input[0]
       args = input[1..input.length]
   
-      case choice
+      case command
        
       when "add"
-        exe = AddtoCart.new(args[0], args[1].to_i)
+        exe = AddCommand.new(args[0], args[1].to_i)
         @invoker.do(exe)
-      )
+      
+      when "show"
+        exe  = ShowCart.new()
+        @invoker.do(exe)
+      
       else
         puts "invalid selection"
       end

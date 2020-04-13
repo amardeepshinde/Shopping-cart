@@ -10,8 +10,5 @@ class BufferInvoker < Invoker
        
     end
 
-def undo()
-    super()
-    puts(@buffer.string())
-end
+
 end

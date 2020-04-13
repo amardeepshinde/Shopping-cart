@@ -14,6 +14,7 @@ class Item
     @bag.add(amount, item)
   end
 
+
   def print
     @bag.print
   end

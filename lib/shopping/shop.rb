@@ -1,8 +1,9 @@
 require "shopping/cart/version"
 
 module Shopping
-  module Cart
+  module Shop
     class Error < StandardError; end
-    # Your code goes here...
-  end
+   
+
+      end
 end
